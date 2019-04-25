@@ -10,9 +10,6 @@ add_filter( 'woocommerce_states', 'custom_woocommerce_states' );
 	'GA' => 'Goa',
 	'GJ' => 'Gujarat',
 	'HR' => 'Haryana',
-	'GA' => 'Goa',
-	'GJ' => 'Gujarat',
-	'HR' => 'Haryana',
 	'HP' => 'Himachal Pradesh',
 	'JK' => 'Jammu and Kashmir',
 	'JH' => 'Jharkhand',
@@ -29,6 +26,7 @@ add_filter( 'woocommerce_states', 'custom_woocommerce_states' );
 	'RJ' => 'Rajasthan',
 	'SK' => 'Sikkim',
 	'TN' => 'Tamil Nadu',
+	'TG' => 'telengana State'
 	'TR' => 'Tripura',
 	'UT' => 'Uttaranchal',
 	'UP' => 'Uttar Pradesh',
@@ -40,7 +38,7 @@ add_filter( 'woocommerce_states', 'custom_woocommerce_states' );
 	'DL' => 'Delhi',
 	'LD' => 'Lakshadeep',
 	'PY' => 'Pondicherry (Puducherry)'
-  );
+);
  
   return $states;
 }
