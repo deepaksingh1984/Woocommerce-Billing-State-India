@@ -26,12 +26,6 @@ function get_indian_state($data){
 		case "HR":
 			$stateReturn = "Haryana";
 			break;
-		case "GA":
-			$stateReturn = "Goa";
-			break;
-		case "GJ":
-			$stateReturn = "Gujarat";
-			break;
 		case "HR":
 			$stateReturn = "Haryana";
 			break;
@@ -82,6 +76,9 @@ function get_indian_state($data){
 			break;
 		case "TN":
 			$stateReturn = "Tamil Nadu";
+			break;
+		case "TG":
+			$stateReturn = "Telengana State";
 			break;
 		case "TR":
 			$stateReturn = "Tripura";
