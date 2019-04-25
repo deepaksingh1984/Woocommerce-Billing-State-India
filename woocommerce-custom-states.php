@@ -3,8 +3,8 @@ add_filter( 'woocommerce_states', 'custom_woocommerce_states' );
  function custom_woocommerce_states( $states ) {
   $states['IN'] = array(
     'AP' => 'Andra Pradesh',
-    'AR' => 'runachal Pradesh',
-    'AS' => 'Assam',
+   	'AR' => 'Arunachal Pradesh',
+   	'AS' => 'Assam',
 	'BR' => 'Bihar',
 	'CT' => 'Chhattisgarh',
 	'GA' => 'Goa',
@@ -26,9 +26,9 @@ add_filter( 'woocommerce_states', 'custom_woocommerce_states' );
 	'RJ' => 'Rajasthan',
 	'SK' => 'Sikkim',
 	'TN' => 'Tamil Nadu',
-	'TG' => 'telengana State'
+	'TG' => 'Telangana State',
 	'TR' => 'Tripura',
-	'UT' => 'Uttaranchal',
+	'UT' => 'Uttarakhand',
 	'UP' => 'Uttar Pradesh',
 	'WB' => 'West Bengal',
 	'AN' => 'Andaman and Nicobar Islands',
