@@ -26,9 +26,6 @@ function get_indian_state($data){
 		case "HR":
 			$stateReturn = "Haryana";
 			break;
-		case "HR":
-			$stateReturn = "Haryana";
-			break;
 		case "HP":
 			$stateReturn = "Himachal Pradesh";
 			break;
